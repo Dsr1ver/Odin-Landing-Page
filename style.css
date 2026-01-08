@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: center;
+
+    background-color: #1F2937;
+    padding: 10px;
+
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    width: 60vw;
+
+
+}
+
+.header-wrapper h1{
+    flex: 1;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-wrapper .navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navbar ul li{
+    color: #E5E7EB;
+
+}
+
+
+/* hero section */
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+
+    background-color: #1F2937;
+    padding: 70px;
+}
+
+.hero-wrapper{
+    width: 60vw;
+
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.hero-wrapper .placeholder-img, .hero-wrapper .hero-leftside{
+    flex: 1 0 350px;
+}
+.hero-leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.hero-leftside h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-leftside p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-leftside button{
+    background-color: #3882F6;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.placeholder-img{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+/* infor section */
+
+
+.info-section{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.info-wrapper{
+    width: 60vw;
+    height: 40vh;
+    text-align: center;
+}
+
+.info-wrapper h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+
+
+}
+.cards .card{
+    flex: 1 0 100px;
+
+}
+.cards .card .box{
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+
+    margin-bottom: 10px;
+}
+
+.cards .card p {
+        color: #1F2937;
+
+}
+
+/* qoute section */
+
+.qoute-section{
+    display: flex;
+    justify-content: center;
+
+    padding: 70px;
+    background-color: #E5E7EB;
+}
+
+.qoute-wrapper{
+    width: 60vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.qoute-wrapper p{
+    flex: 1;
+
+}
+
+.qoute-wrapper p:nth-child(1){
+    font-size: 36px;
+    font-size: 300;
+    color: #1F2937;
+}
+
+.qoute-wrapper p:nth-child(2){
+    text-align: end;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* call to action section */
+
+.call-to-action-section{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.call-to-action-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    width: 60vw;
+    height: 20vh;
+
+    background-color: #3882F6;
+    border-radius: 10px;
+
+    color: #E5E7EB;
+
+}
+
+.call-to-action-wrapper .content h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.call-to-action-wrapper button{
+    border: 5px solid #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+
+    width: 150px;
+    height: 50px;
+
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding: 30px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
